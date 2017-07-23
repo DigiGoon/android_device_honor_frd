@@ -1,1 +1,3 @@
-add_lunch_combo lineage_frd-userdebug
+add_lunch_combo XOS_frd-user
+add_lunch_combo XOS_frd-userdebug
+add_lunch_combo XOS_frd-eng
