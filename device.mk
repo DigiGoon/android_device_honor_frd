@@ -101,10 +101,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml
 
-# Doze
-PRODUCT_PACKAGES += \
-    HisiDoze
-
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.hi3650 \
