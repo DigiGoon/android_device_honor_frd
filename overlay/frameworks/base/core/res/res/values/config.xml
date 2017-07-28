@@ -294,6 +294,9 @@
          provisioning, availability etc -->
     <bool name="config_carrier_wfc_ims_available">true</bool>
 
+    <!-- Determines if Navigation bar (Softkeys) are shown by default or na -->
+    <bool name="config_defaultToNavigationBar">true</bool>
+
     <!-- Determines if device has support for Night Display or na -->
     <bool name="config_nightDisplayAvailable">true</bool>
 
