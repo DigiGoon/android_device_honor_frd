@@ -80,10 +80,8 @@ BACKLIGHT_PATH := /sys/class/leds/lcd_backlight0/brightness
 HEALTHD_BACKLIGHT_LEVEL := 102
 
 # CMHW
-BOARD_USES_CYANOGEN_HARDWARE := true
 BOARD_HARDWARE_CLASS := \
-    $(LOCAL_PATH)/cmhw \
-    hardware/cyanogen/cmhw
+    $(LOCAL_PATH)/cmhw
 
 # Display
 USE_OPENGL_RENDERER := true
