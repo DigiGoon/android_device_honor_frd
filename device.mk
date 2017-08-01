@@ -97,10 +97,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     bt_vendor.conf
 
-# Doze
-PRODUCT_PACKAGES += \
-    HisiDoze
-
 # Fingerprint sensor
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml
