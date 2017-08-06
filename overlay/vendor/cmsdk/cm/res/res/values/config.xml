@@ -15,6 +15,7 @@
      limitations under the License.
 -->
 <resources>
+    <integer name="config_defaultLiveDisplayMode">0</integer>
     <!-- All the capabilities of the LEDs on this device, stored as a bit field.
          This integer should equal the sum of the corresponding value for each
          of the following capabilities present:
@@ -28,5 +29,5 @@
 
          For example, a device support pulsating, RGB notification and
          battery LEDs would set this config to 11. -->
-    <integer name="config_deviceLightCapabilities">11</integer>
+    <integer name="config_deviceLightCapabilities">15</integer>
 </resources>
