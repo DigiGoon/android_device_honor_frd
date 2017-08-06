@@ -73,6 +73,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.vulkan.level-0.xml:system/etc/permissions/android.hardware.vulkan.level.xml \
     frameworks/native/data/etc/android.hardware.vulkan.version-1_0_3.xml:system/etc/permissions/android.hardware.vulkan.version.xml
 
+#CMActions
+PRODUCT_PACKAGES += \
+	CMActions
+	
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
@@ -93,6 +97,10 @@ PRODUCT_PACKAGES += \
     tinymix \
     tinypcminfo
 
+PRODUCT_COPY_FILES+= \
+	$(LOCAL_PATH)/audio/audio_policy.conf:system/etc/audio_policy.conf \
+	$(LOCAL_PATH)/audio/mixer_paths.xml:system/etc/mixer_paths.xml
+
 # Bluedroid conf
 PRODUCT_PACKAGES += \
     bt_vendor.conf
@@ -100,10 +108,6 @@ PRODUCT_PACKAGES += \
 # Fingerprint sensor
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml
-
-# Doze
-PRODUCT_PACKAGES += \
-    HisiDoze
 
 # Ramdisk
 PRODUCT_PACKAGES += \

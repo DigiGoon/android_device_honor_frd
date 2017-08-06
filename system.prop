@@ -37,6 +37,7 @@ rild.rild1_ready_to_start=false
 ro.config.is_start_commril=true
 ro.config.hw_save_pin=true
 ro.config.hw_volte_on=true
+ro.config.hw_volte_dyn=true
 persist.radio.infrared_switch=true
 
 ro.telephony.ril_class=HwHisiRIL
