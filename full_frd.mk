@@ -20,17 +20,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/locales_full.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common XOSP stuff.
+$(call inherit-product, vendor/xosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/xosp/config/xosp.mk)
 
 # Inherit from frd device
 $(call inherit-product, device/honor/frd/device.mk)
+
+# Rooting method
+ROOT_METHOD := magisk
 
 # Vendor
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := full_frd
+PRODUCT_NAME := xosp_frd
 PRODUCT_DEVICE := frd
 PRODUCT_BRAND := Honor
 PRODUCT_MANUFACTURER := HUAWEI
