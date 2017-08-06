@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/xosp.mk
+	$(LOCAL_DIR)/lineage.mk
