@@ -1,3 +1,3 @@
-add_lunch_combo lineage_frd-user
-add_lunch_combo lineage_frd-userdebug
-add_lunch_combo lineage_frd-eng
+add_lunch_combo candy_frd-user
+add_lunch_combo candy_frd-userdebug
+add_lunch_combo candy_frd-eng
